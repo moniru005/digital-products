@@ -5,4 +5,20 @@
 h1{
     color: crimson;
 }
-    
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    padding: 20px;
+    background-color: tomato;
+    width: 110px;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}
