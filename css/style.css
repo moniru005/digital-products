@@ -78,3 +78,45 @@
 .about-info{
 
 }
+.services{
+    background-image: linear-gradient(360deg, #000, gray, #000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 20px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;  
+}
+.service-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box{
+   width: 230px;
+   height: 280px;
+   box-shadow: 4px 4px 15px 10px gray;
+   background-color: #000; 
+   text-align: center;
+   padding: 15px;
+   color: white;
+}
+.icon{
+    width: 70px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 10px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
